@@ -40,6 +40,7 @@ li
 	font-family: 'Pattaya', sans-serif;
 }
 
+/* h1 */
 #head 
 {
 	color: rgb(164, 55, 99);
@@ -133,6 +134,7 @@ footer
 	border-top: 1px solid #666;
 }
 
+/* javascript override for section selector */
 .gradient
 {
 	background: linear-gradient(to bottom, rgba(50,148,149,0.55) 0%,rgba(50,148,149,0.54) 2%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 

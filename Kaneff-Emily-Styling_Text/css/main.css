@@ -1,5 +1,7 @@
 /* All colors from https://color.hailpixel.com/ */
 
+/* fonts from Google Fonts */
+
 body 
 {
 	background-color: #EEE3CD;
@@ -16,6 +18,7 @@ ul
 	text-transform: uppercase;
 }
 
+/* aligns list items horizontally */
 li 
 {
 	display: inline;
