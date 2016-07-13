@@ -1,0 +1,28 @@
+body 
+{
+	background-color: #F9FBF4;
+	font-family: Roboto;
+	color: #302E33;
+}
+
+h1, h2
+{
+	color: #B2AFE4;
+}
+
+h1
+{
+	text-align: center;
+}
+
+h3
+{
+	color: #90DADA;
+}
+
+.action
+{
+	background-color: #302E33;
+	color: #B2AFE4;
+	padding: 6px;
+}
