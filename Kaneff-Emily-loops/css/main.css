@@ -1,0 +1,19 @@
+body {
+	background-image: url("../images/bg.png");
+	font-family: verdana;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 65%;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	line-height: 40px;
+}
+
+h1 {
+	
+}
