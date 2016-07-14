@@ -1,0 +1,142 @@
+/* All colors from https://color.hailpixel.com/ */
+#wrapper
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EEE3CD;
+}
+
+body 
+{
+	background-image: url('../images/upfeathers.png');
+	color: #666;
+	font-family: 'NTR', sans-serif;
+}
+
+nav
+{
+	margin-bottom:10px;
+	border-top: 1px solid #666;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+li 
+{
+	display: inline;
+	padding: 10px;
+}
+
+#head, h2, h3
+{
+	font-family: 'Pattaya', sans-serif;
+}
+
+/* h1 */
+#head 
+{
+	color: rgb(164, 55, 99);
+	height: 98px;
+	text-align:center;
+	font-size:50px;
+	text-shadow: 2px 2px #666;
+	margin: 0px;
+	background-image: url('../images/coffee.png');
+	background-repeat: no-repeat;
+	padding-top:30px;
+	
+}
+
+h2 
+{
+	color: #204960;
+	font-size: 30px;
+}
+
+h3
+{
+	color: hsl(181, 50%, 39%);
+}
+
+h4
+{
+	font-size: 12px;
+}
+
+p 
+{
+	color: #666;
+	font-size:18px;
+}
+
+strong, em
+{
+	color: rgb(164, 55, 99);
+}
+
+section
+{
+	background-color: rgba(50, 148, 149, .15);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	
+}
+
+abbr 
+{
+	color: rgb(164, 55, 99);
+	text-decoration: underline;
+}
+
+a:link 
+{
+	color: #666;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #666;
+}
+
+a:hover
+{
+	color: #204960;
+	font-weight: 900;
+	font-size: 19px;
+	-moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    cursor:pointer;
+}
+
+a:active 
+{
+	color: rgb(164, 55, 99); 
+}
+
+footer
+{
+	background-image: url('../images/coffee.png');
+	height: 128px;
+	background-repeat: no-repeat;
+	padding-left: 135px;
+	padding-top: 10px;
+	border-top: 1px solid #666;
+}
+
+/* javascript override for section selector */
+.gradient
+{
+	background: linear-gradient(to bottom, rgba(50,148,149,0.55) 0%,rgba(50,148,149,0.54) 2%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+}
+

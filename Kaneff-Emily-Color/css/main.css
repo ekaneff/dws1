@@ -1,0 +1,47 @@
+/* All colors from https://color.hailpixel.com/ */
+
+body 
+{
+background-color: #EEE3CD;
+color: #666;
+}
+
+
+h1 
+{
+color: rgb(164, 55, 99);
+height: 50px;
+border-bottom: 1px solid #666;
+}
+
+h2 
+{
+color: #204960;
+}
+
+h3
+{
+color: hsl(181, 50%, 39%);
+}
+
+p 
+{
+color: #666;
+}
+
+strong, em
+{
+color: rgb(164, 55, 99);
+}
+
+section
+{
+background-color: rgba(50, 148, 149, .15);
+width: 75%;
+}
+
+abbr 
+{
+color: rgb(164, 55, 99);
+text-decoration: underline;
+}
