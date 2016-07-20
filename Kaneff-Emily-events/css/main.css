@@ -1,0 +1,61 @@
+body
+{
+	background-image: url('../images/bg2.png');
+	font-family: verdana;
+}
+
+#wrapper
+{
+	background-color: #ECE5C6;
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 90%;
+}
+
+img 
+{
+	height: 300px;
+	width: 299px;
+}
+
+h1
+{
+	padding: 10px;
+	background-color: rgb(236, 159, 5);
+}
+
+input
+{
+	margin-bottom: 10px;
+	width: 300px;
+	height: 30px;
+	font-size: 18px;
+}
+
+p a
+{
+	background-color: rgb(50, 148, 149);
+	padding: 10px;
+	border-radius: 10px;
+	color: #eee;
+	text-decoration: none;
+}
+
+.hover
+{
+	background-color: #eee;
+}
+
+#input 
+{
+	font-size: 25px;
+}
+
+footer
+{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}	
