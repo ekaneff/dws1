@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Grocery List</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Raleway" rel="stylesheet">
+	</head>
+	<body>
+	<div id="wrapper">
+		<section>
+			<h1>Groceries</h1>
+			<h2 id="count">insert number of items here</h2>
+			<div id="listContain">
+				<ul>
+					<li>Apples</li>
+					<li>Milk</li>
+					<li>Lemons</li>
+					<li>Eggs</li>
+					<li>Chicken</li>
+					<li>Bread</li>
+				</ul>
+			</div>
+			
+			<div id="newItemButton">
+				<a href ="#" id = "showForm" data-state="add">+</a>
+			</div>
+			
+			<form id="itemForm">
+				<p>
+					<input type="text" id="item" placeholder="Enter new item..." />
+					<input type="submit" id="submit" value="Add" />
+				</p>
+				
+				<p id="message"></p>
+			</form>
+		</section>
+	</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/jquery.js"></script>
+	</body>
+</html>

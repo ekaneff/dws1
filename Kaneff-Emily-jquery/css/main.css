@@ -1,0 +1,105 @@
+body {
+	background-image: url("../images/food.png");
+}
+
+#wrapper {
+	background-color: rgba(220, 233, 190, .7);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	width: 50%
+	
+	
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.items {
+	list-style: none;
+	padding-left: 0px;;
+	font-family: verdana;
+	line-height: 30px;
+	color: #575757;
+	/*border-bottom: 1px solid black;*/
+	/*color: #FBF7F4;*/
+	
+}
+
+.purchased {
+	color: #8B8B8B;
+	text-decoration: line-through;
+	text-decoration-color: black;
+	font-family: verdana;
+	list-style: none;
+	padding-left: 0px;
+}
+
+h1, h2 {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 40px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #216357;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#listContain {
+	width: 60%;
+	height: 230px;
+	max-height: 230px;
+	overflow: scroll;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F0F7FF;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	
+}
+
+#newItemButton {
+	width: 60px;
+	margin: 0 auto;
+	background-color: #216357;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#newItemButton a {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+input#item {
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+	border: 0px;
+	padding: 5px;
+}
+
+#message {
+	font-family: verdana;
+	font-size: 12px;
+}
+
+#submit {
+	height: 20px;
+	width: 40px;
+	background-color: #216357;
+	
+	color: white;
+	border-radius: 5px;
+	border: 0px;
+}
+
+
+
