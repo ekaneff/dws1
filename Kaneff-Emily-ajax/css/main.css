@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: verdana;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav {
+	
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	padding: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+img {
+	width: 604px;
+	height: 404px;
+}
+
+div#wrapper{
+	background-color: rgba(251, 212, 76, .95);
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+div#content {
+	text-align: left;
+	padding: 10px;
+}
+
+ul {
+	font-family: Lato, sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+li {
+	display: inline;
+	padding: 15px;
+}
+
+a:link {
+	color: #086EA8;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #086EA8;
+}
+a:hover{
+	color: #086EA8;
+	font-weight: 700;
+	font-size: 19px;
+	-moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    cursor:pointer;
+}
+
+h1 {
+	font-size:  40px;
+	font-style: italic;
+	color: #086EA8;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+span {
+	color: red;
+	font-style: italic;
+	font-weight: 200;
+}

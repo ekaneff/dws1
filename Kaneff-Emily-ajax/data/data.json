@@ -1,0 +1,55 @@
+{
+	"dates" : [
+	
+		{
+			"date" : "July 26",
+			"location" : "Milwaukee, WI"
+		},
+		
+		{
+			"date" : "July 27",
+			"location" : "Maryland Heights, MO"
+		},
+		
+		{
+			"date" : "July 28",
+			"location" : "Bonner Springs, KS"
+		}
+	],
+	
+	"artists" : [
+	
+		{
+			"name" : "We The Kings",
+			"stage": "Journey's Left Foot"
+		},
+		
+		{
+			"name" : "Sleeping with Sirens",
+			"stage" : "Journey's Right Foot"
+		},
+	
+		{
+			"name" : "Against the Current",
+			"stage" : "Cyclops"
+		}
+	],
+	
+	"sponsors" : [
+		
+		{
+			"name" : "Vans",
+			"desc" : "Vans Warped Tour Est. '96 · House of Vans Est. '10 · Vans, 'Off the Wall' Since '66"
+		},
+		
+		{
+			"name" : "Journeys",
+			"desc" : "Journeys is a leader in lifestyle & branded footwear for teens and young adults."
+		},
+		
+		{ 
+			"name" : "Monster Energy",
+			"desc" : "Monster Energy is all about action sports, music and living life on the edge. Unleash the Beast!"
+		}
+	]
+}
